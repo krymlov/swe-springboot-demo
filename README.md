@@ -11,15 +11,19 @@ By forecasting the changing trends and periods of our lives, Jyotiṣa can also 
 It offers practical remedial measures to alleviate areas of difficulty, giving us the confidence to manifest our true destiny and create success, happiness, and harmony on all levels.
 
 
-# swe-jyotisa-lib
+# swe-springboot-demo
 
-To build the library from command line you need:
+To build the demo app from command line you need:
 - access to public maven repository
 - https://maven.apache.org
-- JDK 8 or newer
+- JDK 11 or newer
 
-Inside the folder swe-jyotisa-lib run the following command:
-- mvn clean install
+Inside the folder swe-springboot-demo run the following command:
+- mvnw clean package
+- java -Djava.library.path=libs -jar target/swe-springboot-2.10.03j3.jar
+
+then open the url in a browser to see a demo in action:
+- http://localhost:8080/meta/kyiv
 
 ### Restrictions:
 - project includes swe-jni-lib for Windows x64 only, copied from:
