@@ -10,10 +10,9 @@
     </parent>
 
     <name>swe-springboot-demo</name>
-
     <groupId>swisseph</groupId>
     <artifactId>swe-springboot</artifactId>
-    <version>2.10.03j3c</version>
+    <version>2.10.03j3d</version>
 
     <properties>
         <java.version>11</java.version>
@@ -33,7 +32,7 @@
         <dependency>
             <groupId>swisseph</groupId>
             <artifactId>swe-jyotisa-meta</artifactId>
-            <version>2.10.03j3c</version>
+            <version>2.10.03j3d</version>
         </dependency>
 
         <dependency>
