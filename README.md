@@ -6,7 +6,7 @@ To build the demo app from command line you need:
 
 Inside the folder swe-springboot-demo run the following command:
 - mvnw clean package
-- java -Djava.library.path=libs -jar target/swe-springboot-2.10.03j3c.jar
+- java -Djava.library.path=libs -jar target/swe-springboot-2.10.03j3d.jar
 
 then open the url in a browser to see a demo in action:
 - http://localhost:8080/meta/kyiv
